@@ -1,0 +1,78 @@
+body{
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex ;
+    background-image:linear-gradient(rgba(16, 24, 32, 0.6), rgba(16, 24, 32, 0.6)),
+    url(pexels-thelazyartist-2247179.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+       
+}
+#join {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #00224D;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 15px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select {
+    background-color: #f2f2f2;
+}
+
+button.submit-btn {
+    background-color: #0044cc;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-btn:hover {
+    background-color: #003399;
+}
